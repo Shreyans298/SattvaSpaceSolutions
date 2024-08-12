@@ -23,7 +23,7 @@
     <div id="page1">
      <nav>
         <img src="logo.png" alt="pic">
-        <h1 class="company">SATTYA SPACE SOLUTIONS</h1>
+        <h1 class="company">SATTVA SPACE SOLUTIONS</h1>
         <div id="nav-part2">
             <h4><a href="index.php">Home</a></h4>
             <h4><a href="about.php">About</a></h4>
@@ -211,7 +211,7 @@
 </section>
 
 
-<footer>
+<div class="footer">
       <div class="footer-container">
         <div class="footer-item">&copy; 2024 Sattva Space Solutions</div>
         <div class="footer-item">
@@ -227,7 +227,7 @@
           >
         </div>
       </div>
-    </footer>
+</div>
 
 
 

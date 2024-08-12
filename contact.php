@@ -18,7 +18,7 @@
 <div id="page1">
      <nav>
         <img src="logo.png" alt="pic">
-        <h1 class="company">SATTYA SPACE SOLUTIONS</h1>
+        <h1 class="company">SATTVA SPACE SOLUTIONS</h1>
         <div id="nav-part2">
             <h4><a href="index.php">Home</a></h4>
             <h4><a href="about.php">About</a></h4>
@@ -29,7 +29,7 @@
 </div>
 <section class="my-5">
   <div>
-    <h3 class="text-center">Our Services</h3>
+    <h3 class="text-center">Contact Us</h3>
     <div class="w-50 m-auto">
   <form action="userinfo.php" method="post">
   <div class="form-group">
@@ -46,14 +46,14 @@
   </div>
   <div class="form-group">
     <label>Comments</label>
-    <textarea class="form-control" name="comment"></textarea>
+    <textarea class="form-control" name="comment" placeholder="Please give us your valuable feedaback"></textarea>
   </div>
   <button type="submit" class="btn btn-primary">Submit</button>
 </form>
 </div>
 </div>
 </section>
-<footer>
+<div class="footer">
       <div class="footer-container">
         <div class="footer-item">&copy; 2024 Sattva Space Solutions</div>
         <div class="footer-item">
@@ -69,7 +69,7 @@
           >
         </div>
       </div>
-    </footer>
+    </div>
 </body>
 </html>
 
