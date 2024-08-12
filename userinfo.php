@@ -10,6 +10,7 @@ $comments = $_POST['comment'];
 $query = " insert into userinfodata (user, email, phone, comment) values ('$user', '$email', '$phone', '$comments')";
 $res = mysqli_query($con, $query);
 
-header('location: index.php');
+header('Location: index.php');
+exit();
 
  ?>
