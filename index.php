@@ -8,15 +8,27 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
     />
-    <link rel="stylesheet" href="style.css"/>
-    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sriracha&display=swap" rel="stylesheet">
-
+    <link rel="stylesheet" href="styles.css"/>
   </head>
   <body>
-  <?php include 'navbar.php'; ?>
+  <div id="fixed-image">
+
+</div>
+  <div id="main">
+    <div id="page1">
+     <nav>
+        <img src="pic.png" alt="pic">
+        <div id="nav-part2">
+            <h4><a href="index.php">Home</a></h4>
+            <h4><a href="about.php">About</a></h4>
+            <h4><a href="blog.php">Blog</a></h4>
+            <h4><a href="contact.php">Contact Us</a></h4>
+        </div>
+    </nav>
+</div>
+
 <div id="demo" class="carousel slide" data-ride="carousel">
 
-  <!-- Indicators -->
   <ul class="carousel-indicators">
     <li data-target="#demo" data-slide-to="0" class="active"></li>
     <li data-target="#demo" data-slide-to="1"></li>
@@ -44,6 +56,8 @@
     <span class="carousel-control-next-icon"></span>
   </a>
 </div>
+
+
 <section class="my-5">
   <div>
     <h3 class="text-center">About Us</h3>
@@ -98,10 +112,66 @@
     </div>
   </div>
   </section>
+  <div id="page3">
+        <div id="elem-container">
+          <div
+            id="elem1"
+            class="elem"
+            data-image="https://images.unsplash.com/photo-1701001308648-7b731a52b8d7?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxNHx8fGVufDB8fHx8fA%3D%3D"
+          >
+            <div class="overlay"></div>
+            <h2>Makers Studio HOI</h2>
+          </div>
+          <div
+            class="elem"
+            data-image="https://images.unsplash.com/photo-1700975928909-da4a46227a47?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw0fHx8ZW58MHx8fHx8"
+          >
+            <div class="overlay"></div>
+            <h2>50th Anniversary</h2>
+          </div>
+          <div
+            class="elem"
+            data-image="https://images.unsplash.com/photo-1701077137611-9be394bf62f0?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyMHx8fGVufDB8fHx8fA%3D%3D"
+          >
+            <div class="overlay"></div>
+            <h2>NYFW Popup</h2>
+          </div>
+          <div
+            class="elem"
+            data-image="https://images.unsplash.com/photo-1701014159309-4a8b84faadfe?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOXx8fGVufDB8fHx8fA%3D%3D"
+          >
+            <div class="overlay"></div>
+            <h2>Air Force 1 2021</h2>
+          </div>
+          <div
+            class="elem"
+            data-image="https://images.unsplash.com/photo-1700924546093-f914fd5b8814?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyOHx8fGVufDB8fHx8fA%3D%3D"
+          >
+            <div class="overlay"></div>
+            <h2>SOHO NYC</h2>
+          </div>
+          <div
+            class="elem"
+            data-image="https://images.unsplash.com/photo-1700601437860-e66da79cf6d2?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw1OXx8fGVufDB8fHx8fA%3D%3D"
+          >
+            <div class="overlay"></div>
+            <h2>SOHO 2023</h2>
+          </div>
+          <div
+            class="elem"
+            data-image="https://images.unsplash.com/photo-1700769025506-6c3dcb9ec9b7?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw2OXx8fGVufDB8fHx8fA%3D%3D"
+          >
+            <div class="overlay"></div>
+            <h2>Play New Kidvision</h2>
+          </div>
+        </div>
+      </div>
+
+  
 
   <section class="my-5">
   <div>
-    <h3 class="text-center">Our Services</h3>
+    <h3 class="text-center">Contact Us</h3>
     <div class="w-50 m-auto">
   <form action="userinfo.php" method="post">
   <div class="form-group">
@@ -126,7 +196,30 @@
 </div>
 </section>
 
-<?php include 'footer.php'; ?>
+
+<!-- <footer>
+        <div class="footer-linebreaker">
+            <p>Email: <a href="Sattvaspacesolutions@gmail.com">Sattvaspacesolutions@gmail.com</a></p>
+            <p>Phone: <a href="tel:+91 8010118923">8010118923</a></p>
+            <p>Instagram: <a href="https://www.instagram.com/sattva_space_solutions" target="_blank">sattva_space_solutions</a></p>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Sattva Space Solutions. All rights reserved.</p>
+        </div>
+    </footer> -->
+
+    <footer>
+      <div id="footerC">
+        <p class="text-color-white">Copyright &copy; Sattva Solutions</p>
+      </div>
+      <div id="location">
+        <p ></p>
+      </div>
+
+    </footer>
+
+
+    <script src="script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
