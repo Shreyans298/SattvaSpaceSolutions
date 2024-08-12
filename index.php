@@ -112,6 +112,13 @@
     </div>
   </div>
   </section>
+
+  <div class="projects">
+    <div class="dot"></div>
+    <h2 class="heading-style-h6">FEATURED PROJECTS</h2>
+  </div>
+
+
   <div id="page3">
         <div id="elem-container">
           <div
@@ -120,49 +127,49 @@
             data-image="https://images.unsplash.com/photo-1701001308648-7b731a52b8d7?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxNHx8fGVufDB8fHx8fA%3D%3D"
           >
             <div class="overlay"></div>
-            <h2>Makers Studio HOI</h2>
+            <h2>John Doe</h2>
           </div>
           <div
             class="elem"
             data-image="https://images.unsplash.com/photo-1700975928909-da4a46227a47?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw0fHx8ZW58MHx8fHx8"
           >
             <div class="overlay"></div>
-            <h2>50th Anniversary</h2>
+            <h2>John Doe</h2>
           </div>
           <div
             class="elem"
             data-image="https://images.unsplash.com/photo-1701077137611-9be394bf62f0?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyMHx8fGVufDB8fHx8fA%3D%3D"
           >
             <div class="overlay"></div>
-            <h2>NYFW Popup</h2>
+            <h2>John Doe</h2>
           </div>
           <div
             class="elem"
             data-image="https://images.unsplash.com/photo-1701014159309-4a8b84faadfe?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOXx8fGVufDB8fHx8fA%3D%3D"
           >
             <div class="overlay"></div>
-            <h2>Air Force 1 2021</h2>
+            <h2>John Doe</h2>
           </div>
           <div
             class="elem"
             data-image="https://images.unsplash.com/photo-1700924546093-f914fd5b8814?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyOHx8fGVufDB8fHx8fA%3D%3D"
           >
             <div class="overlay"></div>
-            <h2>SOHO NYC</h2>
+            <h2>John Doe</h2>
           </div>
           <div
             class="elem"
             data-image="https://images.unsplash.com/photo-1700601437860-e66da79cf6d2?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw1OXx8fGVufDB8fHx8fA%3D%3D"
           >
             <div class="overlay"></div>
-            <h2>SOHO 2023</h2>
+            <h2>John Doe</h2>
           </div>
           <div
             class="elem"
             data-image="https://images.unsplash.com/photo-1700769025506-6c3dcb9ec9b7?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw2OXx8fGVufDB8fHx8fA%3D%3D"
           >
             <div class="overlay"></div>
-            <h2>Play New Kidvision</h2>
+            <h2>John Doe</h2>
           </div>
         </div>
       </div>
@@ -197,26 +204,24 @@
 </section>
 
 
-<!-- <footer>
-        <div class="footer-linebreaker">
-            <p>Email: <a href="Sattvaspacesolutions@gmail.com">Sattvaspacesolutions@gmail.com</a></p>
-            <p>Phone: <a href="tel:+91 8010118923">8010118923</a></p>
-            <p>Instagram: <a href="https://www.instagram.com/sattva_space_solutions" target="_blank">sattva_space_solutions</a></p>
+<footer>
+      <div class="footer-container">
+        <div class="footer-item">&copy; 2024 Sattva Space Solutions</div>
+        <div class="footer-item">
+          <a href="mailto:Sattvaspacesolutions@gmail.com"
+            >Sattvaspacesolutions@gmail.com</a
+          >
         </div>
-        <div class="footer-bottom">
-            <p>&copy; 2024 Sattva Space Solutions. All rights reserved.</p>
+        <div class="footer-item">
+          <a
+            href="https://www.instagram.com/sattva_space_solutions"
+            target="_blank"
+            >@sattva_space_solutions</a
+          >
         </div>
-    </footer> -->
-
-    <footer>
-      <div id="footerC">
-        <p class="text-color-white">Copyright &copy; Sattva Solutions</p>
       </div>
-      <div id="location">
-        <p ></p>
-      </div>
-
     </footer>
+
 
 
     <script src="script.js"></script>
