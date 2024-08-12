@@ -57,9 +57,9 @@ nav {
 
 .company {
   font-family: "Bodoni Moda", serif;
-  font-optical-sizing: auto;
-  font-size: 70px;
-  font-weight: 200;
+  /* font-optical-sizing: auto; */
+  /* font-size: 30px; */
+  font-weight: 1000;
   font-style: normal;
   margin-bottom: 10px;
 }

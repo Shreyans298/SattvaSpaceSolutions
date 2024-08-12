@@ -202,7 +202,7 @@
   </div>
   <div class="form-group">
     <label>Comments</label>
-    <textarea class="form-control" name="comment"></textarea>
+    <textarea class="form-control" name="comment"  placeholder="Please give us your valuable feedaback"></textarea>
   </div>
   <button type="submit" class="btn btn-primary">Submit</button>
 </form>
@@ -213,12 +213,13 @@
 
 <div class="footer">
       <div class="footer-container">
-        <div class="footer-item">&copy; 2024 Sattva Space Solutions</div>
+        <div class="footer-item">Copyright &copy; 2024 Sattva Space Solutions</div>
         <div class="footer-item">
           <a href="mailto:Sattvaspacesolutions@gmail.com"
             >Sattvaspacesolutions@gmail.com</a
           >
         </div>
+
         <div class="footer-item">
           <a
             href="https://www.instagram.com/sattva_space_solutions"
