@@ -26,28 +26,21 @@
     </nav>
 </div>
 
-<!-- <div class="jumbotron">
+<div class="jumbotron">
     <h1>Sattva Space Solutions</h1>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio voluptates non iure!</p>
+    <p>"Transforming Houses into Homes"</p>
 </div>
+
 <section class="my-5">
   <div>
     <h3 class="text-center">About Us</h3>
-  </div>
+  </div> 
 
-<div class="container-fluid">
-  <div class="row">
-    <div class="row-lg-6 col-md-6 col-12">
-      <img src="" class="img-fluid">
-    </div>
-    <div class="row-lg-6 col-md-6 col-12">
-     <h2 class="display-4">Sattva Space Solutions</h2>
-     <p class="py-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum, quis! Ipsa, beatae! Vero commodi perferendis molestiae quidem, reiciendis maiores! Tenetur harum et cumque hic dolorem eveniet officiis explicabo eaque? Incidunt!</p>
-     <a href="about.php" class="btn btn-success">Read more</a>
-    </div> 
-  </div>
+  <div class="about-section">
+  <img src="intro-1.jpeg" alt="Image description" class="about-image">
+  <p><span class="satya">Sattva Space Solutions</span> is dedicated to transforming spaces and enriching lives through exceptional design.<br> With a passion forcreativity and a commitment to excellence,<br>  our team collaborates closely with clients to craft interiors that seamlessly blend beauty and functionality.<br>  From concept to execution, we strive to create unique environments that reflect our clients’ personalities<br>  and enhance their lifestyles.</p>
 </div>
-</section> -->
+
 
 <div class="footer">
       <div class="footer-container">
@@ -66,6 +59,9 @@
         </div>
       </div>
     </div>
+    </section> 
+</body>
+</html>
 
 
 

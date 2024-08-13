@@ -55,11 +55,28 @@ nav {
   height: 150px;
 }
 
+.about-section {
+  overflow: auto; /* Ensures the container expands to fit the floated image */
+}
+
+.about-image {
+  border-radius: 50%;
+  display: inline-block;
+  float: left;
+  margin-right: 20px; /* Adds some space between the image and the text */
+  width: 150px; /* Set the width of the image */
+  height: 50px; /* Maintains the aspect ratio of the image */
+}
+
+.satya {
+  font-weight: bold; /* or any other styling you need */
+}
+
 .company {
   font-family: "Bodoni Moda", serif;
-  /* font-optical-sizing: auto; */
-  /* font-size: 30px; */
-  font-weight: 1000;
+  font-optical-sizing: auto;
+  font-weight: 100px;
+  font-size: 10px;
   font-style: normal;
   margin-bottom: 10px;
 }
@@ -140,6 +157,7 @@ body {
 }
 
 #page3 {
+  margin-top: 0;
   min-height: 100vh;
   width: 100%;
   background-color: #efeae3;
@@ -200,6 +218,10 @@ body {
   background-position: center;
 }
 
+.form-group {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 .footer {
   background-color: #000;
   color: #fff;
@@ -226,8 +248,7 @@ body {
 }
 
 .footer-item a:hover {
-  font-size: 1.2em; /* Increase font size by 20% */
-  /* color: blue; */
+  font-size: 1.2em;
 }
 
 .projects {
